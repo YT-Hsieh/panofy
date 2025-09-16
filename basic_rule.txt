@@ -1,0 +1,2 @@
+rule1.	tidy uniform
+rule2. 	be respect to others
