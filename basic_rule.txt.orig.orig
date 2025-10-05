@@ -2,11 +2,19 @@ rule1.	tidy uniform
 rule2. 	be respect to others
 rule3. 	No smoking, tattoos.
 <<<<<<< HEAD
+<<<<<<< HEAD
 rule4.	Bad behaviours are prohibited.
 rule5.	drink and food is not allowed in lesson.
 <<<<<<< HEAD
 rule6.	Absolutely NO BULLIES!
 =======
 rule4.	Bad behaviours are prohibited.
+>>>>>>> 6f73c5e (add rule3 and 4)
+=======
 rule6.	Absolutely NO BULLIES!
 >>>>>>> 86b216d (revise rule.txt)
+=======
+rule4.	Bad behaviours are prohibited.
+rule5.	drink and food is not allowed in lesson.
+rule6.	Absolutely NO BULLIES!
+>>>>>>> 968e29cd5d0c7ebe90d49dc2032309316d979e40
