@@ -3,3 +3,5 @@
 2. dumpling
 3. pasta
 4. pizza
+5. onigiri
+6. fried rice
