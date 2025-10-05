@@ -1,6 +1,10 @@
 rule1.	tidy uniform
 rule2. 	be respect to others
 rule3. 	No smoking, tattoos.
+<<<<<<< HEAD
+rule4.	Bad behaviours are prohibited.
+=======
 rule4.	Bad behaviours are prohibited.
 rule5.	drink and food is not allowed in lesson.
 rule6.	Absolutely NO BULLIES!
+>>>>>>> 12c2f2f529907c88bd80513b4b4ecc12134794ab
