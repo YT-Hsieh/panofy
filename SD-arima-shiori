@@ -1,0 +1,36 @@
+txt2img
+checkpoint: animayhemPaleRider_v2TrueGrit (不能用在img2img)
+clip skip:2
+Eular a -Normal
+CFG scale: 3-4
+step: 30
+size: 640*1920
+
+prompt:
+POS:
+	lazypos,high detailed skin,high res,very aesthetic,absurdres,ultra-detailed,hyper detailed,
+perfect anatomy,finely detailed face,perfect body,shiny skin,perfect eyes,beautiful face,well-defined fingers,
+full body shot,pearky breasts,round breasts,armpits,cleavage,
+(long legs:1.2),(legs_apart:1.2),stretch legs,
+white lace bra,white lace arm sleeves,white thighhighs,lace stockings,white garter belt,wedding veil,
+smile,embarrass,shy,blush,naughty_face,nose blush,
+lying,lying on bed,bed_sheet,
+solo,1 girl,looking_at_viewer,
+<lora:add-detail-xl>,earrings,
+arima shiori,red hair,long hair,blue eyes,lipstick,<lora:arima_shiori_ilxl_v1:0.8>,
+arm_up,arm_above_head,arm_at_side,<lora:fingers_adjuster_illustrious0.1_v1.0>,
+
+Neg:
+	embedding:negativeXL_D,anorexic,furry,halo,(worst quality, low quality, sketch:1.1),error,bad hands,watermark,ugly female,distorted,censored,lowres,abstract,signature,easynegative,pillow,pillow_hug,areola,nipples,legs_together,shoes,bad anatomy,
+wrong finger numbers,
+
+
+using img2img to implaint fingers
+checkpoint: prefectIllustriousXL_v70
+prompt: same as txt2img
+mask blur : 2 is enough
+Eular a -Normal
+Only masked padding, pixels : 32
+step : 20 
+Denoising strength: 0.75
+
